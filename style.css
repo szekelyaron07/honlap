@@ -1,0 +1,107 @@
+body{
+    /* background-image: linear-gradient(45deg, purple, green); */
+    background-image:url(376023-4k-wallpaper.png);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height: 100vh;
+    gap: 15vw;
+}
+
+nav{
+    flex: 1 1;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    gap: 7vh;
+    font-size: 24px;
+    background-color: rgb(166, 14, 14);
+    border-radius: 0 8px 8px 0;
+}
+
+
+main{
+    flex: 9 0;
+}
+
+a,
+a:active,
+a:visited{
+    text-decoration: none;
+    color: inherit;
+    transition: color 225ms ease;
+}
+
+a.jelenlegi{
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    background-image: linear-gradient(to right, #990e1a, rgb(137, 15, 102));
+}
+
+a:hover{
+    color: ghostwhite
+}
+
+main.index,
+main.orarend,
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.index > div,
+main.orarend > div,
+main.magamrol > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.orarend table {
+    border-collapse: collapse;
+}
+
+main.orarend td, th {
+    border: 1px solid rgba(233, 228, 228, 0.3);
+    text-align: center;
+    padding: 8px;
+     color:rgb(191, 191, 213);
+      
+}
+
+main.orarend th{
+    background-color: rgb(70, 8, 50);
+    border-bottom-width: 2px;
+}
+  
+main.orarend tr:nth-child(even) {
+    background-color: rgba(121, 29, 29, 0.7);
+}
+
+main.index > div{
+    gap: 12px;
+}
+
+main.index #orarend{
+    background-image: linear-gradient(to right, rgb(149, 22, 28), rgb(153, 25, 131));
+    padding: 12px 16px;
+    border-radius: 999px;
+    color: rgb(234, 207, 207)
+    a hover color  ghostwhite
+}
+
+h1{
+    color:#990e1a;
+    
+}
+
+
+
